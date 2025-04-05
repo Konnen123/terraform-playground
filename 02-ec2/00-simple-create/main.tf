@@ -10,5 +10,5 @@ resource "aws_instance" "instance" {
 
 resource "aws_key_pair" "key_pair" {
   key_name = var.key_pair_name
-  public_key = file("my-aws-key.pub")
+  public_key = file("../../aws_key_pairs/my-aws-key.pub")
 }

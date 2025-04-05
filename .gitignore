@@ -38,4 +38,5 @@ terraform.rc
 
 .idea
 *.pub
+aws_key_pairs
 my-aws-key
